@@ -70,18 +70,12 @@ API implementation using Flask: app.py
  The data folder contains files for training data and the testing data.
 
 
-## Model Drive Link:
+## Model:
 
-Please find the drive link here, which consists of the model files used in the code.
 
-#### (Please note that we have attached the model files in the below drive links due to large file size)
 #### Sentiment Analysis Model :
 
-https://drive.google.com/drive/u/1/folders/1i4cZEGbljkltCT0r2r5Dlg1tMzRr2Xke
-
-#### Translation Model :
-
-https://drive.google.com/drive/u/1/folders/1iSfYYgDaZel6PDtJ-qcvQH03BR53X7kD
+Present in Backend folder.
 
 
 ## Demo video:
