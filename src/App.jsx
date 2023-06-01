@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab54a59fb0317ec1a9c63ee269df0bc78b7f638ddff86627a741ba7531bbb3f6
-size 851
+import { Route, Routes } from "react-router"
+import Home from "./pages/Home"
+import SentimentAnalysis from "./pages/SentimentAnalysis"
+import SocialMedia from "./pages/SocialMedia"
+import ChurnPrediction from "./pages/ChurnPrediction"
+import FakeAnalysis from "./pages/FakeAnalysis"
+import Dashboard from "./pages/Dashboard"
+import About from "./pages/About"
+
+function App() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sen" element={<SentimentAnalysis />} />
+        <Route path="/social" element={<SocialMedia />} />
+        <Route path="/cp" element={<ChurnPrediction />} />
+        <Route path="/fake" element={<FakeAnalysis />} />
+        <Route path="/dash" element={<Dashboard />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </>
+  )
+}
+
+export default App
